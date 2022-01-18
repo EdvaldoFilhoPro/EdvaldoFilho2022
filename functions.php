@@ -26,6 +26,12 @@ function load_scripts()
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
 
+//Habilitar Logomarca Customizada
+add_theme_support('custom-logo', array(
+    'flex-width' => true,
+    'flex-height'=> true
+));
+
 add_action('widgets_init', 'my_sidebars');
 function my_sidebars(){
     register_sidebar(
