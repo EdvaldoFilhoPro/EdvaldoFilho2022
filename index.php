@@ -653,122 +653,7 @@
   <!-- End Pricing Section -->
 
   <!-- ======= F.A.Q Section ======= -->
-  <section id="faq" class="faq section-bg">
-    <div class="container">
-
-      <div class="section-title">
-        <?php
-        if (is_active_sidebar('faq-int')) {
-          dynamic_sidebar('faq-int');
-        }
-        ?>
-        <!-- <h2 data-aos="fade-up">F.A.Q</h2>
-        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-      </div>
-
-      <div class="faq-list">
-        <ul>
-          <li data-aos="fade-up">
-            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">
-              <?php
-              if (is_active_sidebar('question-01')) {
-                dynamic_sidebar('question-01');
-              }
-              ?>
-              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
-              <p>
-                <?php
-                if (is_active_sidebar('response-01')) {
-                  dynamic_sidebar('response-01');
-                }
-                ?>
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="100">
-            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">
-              <?php
-              if (is_active_sidebar('question-02')) {
-                dynamic_sidebar('question-02');
-              }
-              ?>
-              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-2" class="collapse" data-parent=".faq-list">
-              <p>
-                <?php
-                if (is_active_sidebar('response-02')) {
-                  dynamic_sidebar('response-02');
-                }
-                ?>
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">
-              <?php
-              if (is_active_sidebar('question-03')) {
-                dynamic_sidebar('question-03');
-              }
-              ?>
-
-              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-3" class="collapse" data-parent=".faq-list">
-              <p>
-                <?php
-                if (is_active_sidebar('response-03')) {
-                  dynamic_sidebar('response-03');
-                }
-                ?>
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">
-              <?php
-              if (is_active_sidebar('question-04')) {
-                dynamic_sidebar('question-04');
-              }
-              ?>
-              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-4" class="collapse" data-parent=".faq-list">
-              <p>
-                <?php
-                if (is_active_sidebar('response-04')) {
-                  dynamic_sidebar('response-04');
-                }
-                ?>
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">
-              <?php
-              if (is_active_sidebar('question-05')) {
-                dynamic_sidebar('question-05');
-              }
-              ?>
-              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
-              <p>
-                <?php
-                if (is_active_sidebar('response-05')) {
-                  dynamic_sidebar('response-05');
-                }
-                ?>
-              </p>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-
-    </div>
-  </section>
+ 
   <!-- End F.A.Q Section -->
 
   <!-- ======= Contact Section ======= -->
@@ -781,8 +666,8 @@
           dynamic_sidebar('section-contact');
         }
         ?>
-        <!-- <h2 data-aos="fade-up">Contact</h2>
-        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        <h2 data-aos="fade-up">Contact</h2>
+        <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
 
       <div class="row justify-content-center">
@@ -864,7 +749,8 @@
       </div>
 
     </div>
-  </section><!-- End Contact Section -->
+  </section>
+  <!-- End Contact Section -->
 
 </main><!-- End #main -->
 <?php get_footer(); ?>
