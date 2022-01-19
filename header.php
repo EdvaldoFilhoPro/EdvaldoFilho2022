@@ -61,10 +61,10 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Flexor</span></a></h1> -->
+        <h1 class="text-light"><a href="index.html"><span>Edvaldo Filho</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-        <a href="index.html" class="img-fluid" ><?php the_custom_logo();?></a>
+        <!-- <a href="index.html" class="img-fluid" ></a> -->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
