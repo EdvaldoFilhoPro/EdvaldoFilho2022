@@ -128,19 +128,29 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 8px 0;
   line-height: 1;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-family:  "Open Sans", sans-serif;
+  
 }
+/* #header .logo h5 {
+  font-size: 12px;
+  margin: 0;
+  padding: 1px 0;
+  line-height: 1;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+} */
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #635551;
+  color: #428BCA;
   text-decoration: none;
 }
 
-#header .logo img {
+#header .logo a {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 #main {
