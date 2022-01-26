@@ -16,7 +16,7 @@ function load_scripts()
     // wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/vendor/jquery/jquery.min.js', array('jquery-tow'), null, true );
     wp_enqueue_script('bootstrap-bundle-min', get_template_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', array('jquery-tow'), null, true);
     wp_enqueue_script('jquery-easing', get_template_directory_uri() . '/assets/vendor/jquery.easing/jquery.easing.min.js', array('jquery-tow'), null, true);
-    wp_enqueue_script('validate', get_template_directory_uri() . '/assets/vendor/php-email-form/validate.js', array('jquery-tow'), null, true);
+    // wp_enqueue_script('validate', get_template_directory_uri() . '/assets/vendor/php-email-form/validate.js', array('jquery-tow'), null, true);
     wp_enqueue_script('jquery-sticky', get_template_directory_uri() . '/assets/vendor/jquery-sticky/jquery.sticky.js', array('jquery-tow'), null, true);
     wp_enqueue_script('venobox-min', get_template_directory_uri() . '/assets/vendor/venobox/venobox.min.js', array('jquery-tow'), null, true);
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/vendor/owl.carousel/owl.carousel.min.js', array('jquery-tow'), null, true);
