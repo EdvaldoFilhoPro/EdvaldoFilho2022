@@ -427,7 +427,7 @@ function my_sidebars(){
     
     register_sidebar(
         array(
-        'name'           => 'Rodapé',
+        'name'           => 'Endereço Rodapé',
         'id'             => 'section-footer',
         'description'    => '',
         'before_widget'  => '<p>',

@@ -15,18 +15,18 @@
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Links Úteis</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Contato</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="https://blog.edvaldofilho.com.br/">Blog</a></li>
+            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Our Services</h4>
+          <h4>Meus Serviços</h4>
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>

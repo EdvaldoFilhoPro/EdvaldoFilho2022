@@ -93,7 +93,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Blog</a></li>
+          <li><a href="https://blog.edvaldofilho.com.br/">Blog</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
