@@ -117,8 +117,10 @@
   <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
     <div class="container" data-aos="fade-up">
+              <h4>Tecnologias Utilizadas</h4>
 
       <div class="owl-carousel clients-carousel">
+        
         <?php
         $args = array(
           'post_per_page' => 8,
@@ -685,7 +687,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-xl-4 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <?php
