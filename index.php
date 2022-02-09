@@ -204,7 +204,7 @@
 
             <p class="description">
               <?php echo get_the_excerpt(73); ?>
-              ?>
+              
             </p>
           </div>
         </div>
