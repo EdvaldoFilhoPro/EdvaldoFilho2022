@@ -211,13 +211,13 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="<?php the_permalink(79); ?>">
+            <h4 class="title"><a href="<?php the_permalink(75); ?>">
 
-                <?php echo get_the_title(79); ?>
+                <?php echo get_the_title(75); ?>
 
               </a></h4>
             <p class="description">
-              <?php echo get_the_excerpt(79); ?>
+              <?php echo get_the_excerpt(75); ?>
             </p>
           </div>
         </div>
