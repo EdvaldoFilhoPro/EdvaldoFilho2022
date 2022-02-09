@@ -180,10 +180,10 @@ function my_sidebars(){
             'name'          => 'Descrição de Serviço 01',
             'id'            => 'service-description-01',
             'description'   => 'Type any text here',
-            'before_widget' => '<p>',
+            'before_widget' => '<p class="description">',
             'after_widget'  => '</p>',
-            'before_title'  => '<h4">',
-            'after_title'   => '</h4>',
+            // 'before_title'  => '<h4">',
+            // 'after_title'   => '</h4>',
         )
     );
 

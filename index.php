@@ -1,5 +1,22 @@
 <?php get_header(); ?>
 
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero d-flex flex-column justify-content-center align-items-center">
+
+  <div class="container" data-aos="fade-in">
+
+    <!-- <?php
+          if (is_active_sidebar('banner')) {
+            dynamic_sidebar('banner');
+          }
+          ?> -->
+
+    <!-- <div class="d-flex align-items-center">
+      <i class="bx bxs-right-arrow-alt get-started-icon"></i>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div> -->
+  </div>
+</section><!-- End Hero -->
 
 <main id="main">
 
@@ -10,7 +27,7 @@
       <div class="row">
         <div class="col-xl-4 col-lg-5" data-aos="fade-up">
           <div class="content">
-          <?php
+            <?php
             if (is_active_sidebar('banner-card-main')) {
               dynamic_sidebar('banner-card-main');
             }
@@ -27,7 +44,7 @@
                   if (is_active_sidebar('banner01')) {
                     dynamic_sidebar('banner01');
                   }
-                  ?> 
+                  ?>
                 </div>
               </div>
               <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
@@ -117,10 +134,10 @@
   <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
     <div class="container" data-aos="fade-up">
-              <h4>Tecnologias Utilizadas</h4>
+      <h4>Tecnologias Utilizadas</h4>
 
       <div class="owl-carousel clients-carousel">
-        
+
         <?php
         $args = array(
           'post_per_page' => 8,
@@ -167,20 +184,12 @@
           <div class="icon-box">
             <div class="icon"><i class="icofont-computer"></i></div>
 
-            <h4 class="title"><a href="">
-                <?php
-                if (is_active_sidebar('service-tilte-01')) {
-                  dynamic_sidebar('service-tilte-01');
-                }
-                ?>
+            <h4 class="title"><a href="<?php the_permalink(69); ?>">
+                <?php echo get_the_title(69); ?>
               </a></h4>
 
             <p class="description">
-              <?php
-              if (is_active_sidebar('service-description-01')) {
-                dynamic_sidebar('service-description-01');
-              }
-              ?>
+              <?php echo get_the_excerpt(69); ?>
             </p>
 
           </div>
@@ -188,18 +197,13 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title"><a href="">
-                <?php
-                if (is_active_sidebar('service-tilte-02')) {
-                  dynamic_sidebar('service-tilte-02');
-                }
-                ?>
+
+            <h4 class="title"><a href="<?php the_permalink(73); ?>">
+                <?php echo get_the_title(73); ?>
               </a></h4>
+
             <p class="description">
-              <?php
-              if (is_active_sidebar('service-description-02')) {
-                dynamic_sidebar('service-description-02');
-              }
+              <?php echo get_the_excerpt(73); ?>
               ?>
             </p>
           </div>
@@ -207,19 +211,13 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="">
-                <?php
-                if (is_active_sidebar('service-tilte-03')) {
-                  dynamic_sidebar('service-tilte-03');
-                }
-                ?>
+            <h4 class="title"><a href="<?php the_permalink(79); ?>">
+
+                <?php echo get_the_title(79); ?>
+
               </a></h4>
             <p class="description">
-              <?php
-              if (is_active_sidebar('service-description-03')) {
-                dynamic_sidebar('service-description-03');
-              }
-              ?>
+              <?php echo get_the_excerpt(79); ?>
             </p>
           </div>
         </div>
@@ -655,7 +653,7 @@
   <!-- End Pricing Section -->
 
   <!-- ======= F.A.Q Section ======= -->
- 
+
   <!-- End F.A.Q Section -->
 
   <!-- ======= Contact Section ======= -->
@@ -715,11 +713,11 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
         <div class="col-xl-9 col-lg-12 mt-4">
-        <?php
-            if (is_active_sidebar('contact')) {
-              dynamic_sidebar('contact');
-            }
-            ?>
+          <?php
+          if (is_active_sidebar('contact')) {
+            dynamic_sidebar('contact');
+          }
+          ?>
           <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="col-md-6 form-group">
