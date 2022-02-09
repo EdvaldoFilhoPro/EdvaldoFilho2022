@@ -13,7 +13,7 @@ while (have_posts()) : the_post();
           </div> -->
 
           <div class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h4 data-aos="fade-up">About us</h4>
+            <h4 data-aos="fade-up"><?php the_category(',');?></h4>
             <h3 data-aos="fade-up"><?php the_title(); ?></h3>
             <p data-aos="fade-up"><?php the_content(); ?></p>
 
