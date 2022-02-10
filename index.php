@@ -5,11 +5,11 @@
 
   <div class="container" data-aos="fade-in">
 
-    <!-- <?php
+     <?php
           if (is_active_sidebar('banner')) {
             dynamic_sidebar('banner');
           }
-          ?> -->
+          ?> 
 
     <!-- <div class="d-flex align-items-center">
       <i class="bx bxs-right-arrow-alt get-started-icon"></i>
