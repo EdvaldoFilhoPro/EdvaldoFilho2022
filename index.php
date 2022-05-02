@@ -184,12 +184,12 @@
           <div class="icon-box">
             <div class="icon"><i class="icofont-computer"></i></div>
 
-            <h4 class="title"><a href="<?php the_permalink(69); ?>">
-                <?php echo get_the_title(69); ?>
+            <h4 class="title"><a href="<?php the_permalink(11); ?>">
+                <?php echo get_the_title(11); ?>
               </a></h4>
 
             <p class="description">
-              <?php echo get_the_excerpt(69); ?>
+              <?php echo get_the_excerpt(11); ?>
             </p>
 
           </div>
